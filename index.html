@@ -36,10 +36,11 @@
 
       
     </header>
-    
     <section class="about" id="about">
       <div class="about-container">
-        <img src="image.png" alt="" />
+          <div class="profile-pic">
+              <img src="image.jpg" alt="Profile Picture">
+          </div>
 
         <div class="info-box">
           <div class="text">
@@ -50,7 +51,7 @@
 
           <div class="btn-group">
             <a href="UmerIsmail_CV.pdf" download class="btn">Download CV</a>
-            <div class="btn">Contact</div>
+            <a href="mailto:Umerismail402@gmail.com" class="btn">Contact</a>
           </div>
 
           <div class="socials">
@@ -61,7 +62,7 @@
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
-          
+        </div>
     </section>
 
     <section class="education" id="education">
@@ -101,59 +102,62 @@
   
 
   <section class="projects" id="projects">
-    <h2 class="section-title">Recent Projects</h2>
-
+    <h2 class="heading">Recent Projects</h2>
     <div class="projects-grid">
-
+        
         <!-- Project 1 -->
-        <div class="project-card">
-            <video src="project1.mp4" autoplay loop muted></video>
+        <div class="project-item">
+            <video controls>
+                <source src="project1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <h3>Eventitude</h3>
-            <p>I've implemented an event management tool called "Eventitude", where users can create and host events as well as register for other events."</p>
-            <div class="btn-group">
-                <a href="https://github.com/IsmailUmer/Eventitude" target="_blank" class="btn">Github Repo</a>
-            </div>
+            <p>I've implemented an event management tool called "Eventitude," where users can create and host events as well as register for other events.</p>
+            <a href="https://github.com/IsmailUmer/Eventitude" target="_blank" class="btn">Github Repo</a>
         </div>
 
         <!-- Project 2 -->
-        <div class="project-card">
-            <video src="project2.mp4" autoplay loop muted></video>
+        <div class="project-item">
+            <video controls>
+                <source src="project2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <h3>Payment Portal</h3>
-            <p>I've developed a website that mimics a payment gateaway for an e-commerce Website.</p>
-            <div class="btn-group">
-                <a href="https://github.com/IsmailUmer/Web-Payment-Portal" target="_blank" class="btn">Github Repo</a>
-            </div>
+            <p>I've developed a website that mimics a payment gateway for an e-commerce website.</p>
+            <a href="https://github.com/IsmailUmer/Web-Payment-Portal" target="_blank" class="btn">Github Repo</a>
         </div>
 
         <!-- Project 3 -->
-        <div class="project-card">
-            <video src="project3.mp4" autoplay loop muted></video>
+        <div class="project-item">
+            <video controls>
+                <source src="project3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <h3>2D Game</h3>
-            <p>I've implemented this Processing based intractive game, with basic functioanlity of draging fruits and droping them in a basket.</p>
-            <div class="btn-group">
-                <a href="https://github.com/IsmailUmer/2DGame" target="_blank" class="btn">Github Repo</a>
-            </div>
+            <p>I've implemented this Processing-based interactive game, with basic functionality of dragging fruits and dropping them in a basket.</p>
+            <a href="https://github.com/IsmailUmer/2DGame" target="_blank" class="btn">Github Repo</a>
         </div>
 
     </div>
 </section>
 
 
-    <section class="contact" id="contact">
-      
-      <div class="input-box">
+<section class="contact" id="contact">
+  <h2 class="section-title">Contact Me</h2>
 
-        <h2 class="section-title">Contact Me</h2>
+  <div class="btn-group">
+      <!-- Mail Button -->
+      <a href="mailto:Umerismail402@gmail.com" class="btn">
+          <i class="fa-solid fa-envelope"></i> Email Me
+      </a>
 
-        <div class="input">
-          <input type="text" placeholder="example@email.com">
-          <i class="fa-solid fa-envelope"></i>
-        </div>
+      <!-- LinkedIn Button -->
+      <a href="https://www.linkedin.com/in/umerismail" target="_blank" class="btn">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+  </div>
+</section>
 
-        <div class="btn">Submit</div>
-      </div>
-      
-    </section>
 
     <footer>
 
